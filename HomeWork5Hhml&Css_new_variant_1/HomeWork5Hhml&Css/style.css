@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ########################## New Style ########################## */
+
+/* Header */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.header-nav>.link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.header-nav>.link.active {
+    color: #2784f5;
+}
+
+/* Main */
+.main-wrapp {
+    background-color: #e8ebea;
+    border-radius: 2rem;
+    margin: 0 1rem;
+    padding: 2rem 1.5rem;
+    display: flex;
+}
+
+/* Side-Nav */
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 1rem;
+    align-self: center;
+    padding: 1rem .5rem;
+    height: 350px;
+    font-size: 1.5rem;
+}
+
+.side-nav>div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: .4rem;
+    cursor: pointer;
+}
+
+.side-nav>div:hover {
+    background-color: #2784f5;
+    border-radius: .5rem;
+    color: #fff;
+}
+
+.content {
+    width: 100%;
+}
+
+.content-top {
+    display: flex;
+}
+
+.ceil {
+    flex: 1 0 auto;
+    background-color: #fff;
+    border-radius: 1rem;
+    min-height: 100px;
+    margin: 0 0 0 1rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.primary {
+    font-size: 14px;
+    color: #ccc
+}
+
+.content-bottom {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.right {
+    width: 30%;
+}
+
+.right {
+    display: block;
+}
+
+.ceil-b {
+    flex: 1 0 auto;
+    background-color: #fff;
+    border-radius: 1rem;
+    min-height: 100px;
+    margin: 0 0 0 1rem;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.left .ceil-b:nth-child(2) {
+    display: flex;
+}
+
+.left-img > img {
+    height: 90px;
+    width: auto;
+    margin-right: 1rem;
+}
+
+.right-img > img{
+    height: 90px;
+    width: auto;
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+/* ########################## TEAM PAGE ########################## */
+
+/* Main */
+.main-wrapp {
+    background-color: #e8ebea;
+    border-radius: 2rem;
+    margin: 0 1rem;
+    padding: 2rem 1.5rem;
+
+}
+
+.space-wrapp {
+    margin: 0 auto;
+    width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Cart */
+.cart {
+    width: calc(200px );
+    min-height: 190px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cart:hover {
+    background-color: #2784f5;
+    cursor: pointer;
+}
+
+.cart:hover p,
+.cart:hover .user-name {
+    color: #fff;
+}
+
+.cart:nth-child(-n+4) {
+    margin-bottom: 2rem;
+}
+
+.cart p {
+    margin: 0;
+    color: #ccc;
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+.cart>img {
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+
+.cart .user-name {
+    font-weight: 700;
+    color: #000;
+    font-size: 1.1rem;
+
+}
+/* ########################## LESSON PAGE ########################## */
+
+.lesson table {
+    width: 100%;
+    text-align: center;
+    border-spacing:0;
+    border-collapse: separate;
+}
+
+.lesson table img {
+    height: 1.8rem;
+}
+.lesson td {
+    padding: .9rem;
+}
+.lesson th {
+    padding-bottom: 1rem ;
+}
+
+
+.lesson tbody tr:hover {
+    background-color: #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+
+tbody td:first-child { border-top-left-radius: 1rem; }
+tbody td:last-child { border-top-right-radius: 1rem; }
+tbody td:first-child { border-bottom-left-radius: 1rem; }
+tbody td:last-child { border-bottom-right-radius: 1rem; }
+
